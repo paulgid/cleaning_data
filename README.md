@@ -1,4 +1,4 @@
-# cleaning_data
+# Coursera cleaning course
 
 Repo for submission of Coursera Getting and cleaning data course project.
 
