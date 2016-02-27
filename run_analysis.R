@@ -76,6 +76,6 @@ finalData = merge(finalData, activityLabels,by='activityId',all.x=TRUE);
 melted <- melt(finalData, id=c("subjectID","activityType"))
 tidyData <- dcast(melted, subjectID+activityType ~ variable, mean)
 
-write.table(tidyData, './tidyData.txt',row.names=TRUE,sep='\t');
+write.table(tidyData, './tidyData.csv',row.names=TRUE);
 
 
